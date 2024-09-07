@@ -2,8 +2,8 @@ import { useState } from "react"
 import "./chatList.css"
 
 const ChatList = () => {
-    const [addMode, setAddMode] =useState(false)
-    
+    const [addMode, setAddMode] = useState(false)
+
     return (
     <div className='chatList'>
         <div className="search">
@@ -49,6 +49,7 @@ const ChatList = () => {
                 <p>Hello!</p>
             </div>
         </div>
+        <addUser/>
     </div>
     )
 }
